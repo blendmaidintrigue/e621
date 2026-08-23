@@ -1,0 +1,4 @@
+@echo off
+setlocal
+ruby "%~dp0rake" %*
+exit /b %errorlevel%

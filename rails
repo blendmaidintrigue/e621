@@ -1,0 +1,4 @@
+@echo off
+setlocal
+ruby "%~dp0populate" %*
+exit /b %errorlevel%

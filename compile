@@ -1,0 +1,4 @@
+@echo off
+setlocal
+ruby "%~dp0bundle" %*
+exit /b %errorlevel%
