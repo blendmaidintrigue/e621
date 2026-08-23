@@ -20,6 +20,8 @@ An independent community-maintained project based on the open-source **e621ng** 
 </div>
 
 ---
+<img width="1774" height="887" alt="b4522539-654f-4389-b8ee-c637ac612375" src="https://github.com/user-attachments/assets/9899bee2-a185-4903-bd0f-27a0ef56ccde" />
+
 
 ## 🚀 One-Command Installation
 
